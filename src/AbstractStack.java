@@ -4,7 +4,7 @@ public abstract class AbstractStack implements Stack {
 
   public AbstractStack(int capacity) {
     if(capacity <= 0) {
-    throw new IllegalArgumentException("Capacity has to be greater then 1");
+    throw new IllegalArgumentException("Capacity has to be greater than 1");
     }
     top = -1;
     elements = new int[capacity];
